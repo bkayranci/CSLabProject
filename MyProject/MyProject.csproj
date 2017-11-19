@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kare.cs" />
+    <Compile Include="KarmasikSayi.cs" />
+    <Compile Include="Nokta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ucgen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
