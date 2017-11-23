@@ -96,6 +96,9 @@ namespace MyProject
             return this.p3;
         }
 
+        /**
+         * farkli olsun odevleriniz dediginiz icin bu sekilde yaptim
+         */
         // setter p1
         public void SetP1(Nokta p1) => this.p1 = p1;
 

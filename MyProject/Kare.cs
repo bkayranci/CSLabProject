@@ -78,7 +78,7 @@ namespace MyProject
             return "Kare Alanı: " + this.Alan() + "\nKare Cevresi: " + this.KareCevre() + "\nNoktalari: " + solUst.NoktaString() + " " + sagAlt.NoktaString();
         }
 
-        // karenin default olarak dikey kenarini kullanarak kenar uzunlugunu hesaplar istege gore dusey kenar da kullanilabilir
+        // karenin default olarak dikey kenarini kullanarak kenar uzunlugunu hesaplar istege gore dusey kenar da kullanilabilir sonucta iki secenekte ayni sonucu verir
         private double getKenarUzunlugu(Kenar kenar = Kenar.DIKEY)
         {
             if (kenar == Kenar.DUSEY)
