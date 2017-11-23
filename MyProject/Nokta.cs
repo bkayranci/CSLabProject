@@ -12,10 +12,8 @@ namespace MyProject
         private int y;
 
         // orijin (0,0) noktasini olusturur
-        public Nokta()
+        public Nokta():this(0, 0)
         {
-            SetX(0);
-            SetY(0);
         }
 
         // orijin (x,y) noktasini olusturur
@@ -28,7 +26,7 @@ namespace MyProject
         // mevcut objenin verilen koordinatlara olan uzakligini bulur
         public double Uzaklik(int x, int y)
         {
-            return Math.Sqrt(((GetX() - x) * (GetX() - x)) + ((GetY() - y) * (GetY() - y)));
+            return Math.Sqrt(Math.Pow((GetX() - x), 2) + Math.Pow((GetY() - y), 2) );
         }
 
         // mevcut objenin bu noktaya olan uzakligini bulur

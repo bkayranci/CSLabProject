@@ -31,6 +31,9 @@ namespace MyProject
                 this.p1 = new Nokta(0, 0);
                 this.p2 = new Nokta(0, 1);
                 this.p3 = new Nokta(1, 0);
+
+                Console.WriteLine("Ucgen default noktalar ile olusturuldu.");
+                this.ToString();
             }
         }
 
